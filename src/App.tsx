@@ -1,7 +1,7 @@
-import './App.css'
-import ProductFullView from './Features/Product/FullView/ProductFullView';
-import ProductListView from './Features/Product/List/ProductListView';
-import Product from './Features/Product/Product'
+import "./App.css";
+import ProductFullView from "./Features/Product/FullView/ProductFullView";
+import ProductListView from "./Features/Product/List/ProductListView";
+import Product from "./Features/Product/Product";
 
 function App() {
   const testProductList: Product[] = [
@@ -54,9 +54,7 @@ function App() {
     },
   ];
 
-  return (
-    <ProductFullView product={testProductList[0]} />
-  )
+  return <ProductFullView product={testProductList[1]} />;
 }
 
-export default App
+export default App;

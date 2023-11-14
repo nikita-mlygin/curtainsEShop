@@ -1,0 +1,7 @@
+{
+  "id": "1",
+  "name": "Test product name",
+  "description": "Test product description. Test product.",
+  "isFavorite": false,
+  "price": 1000
+}

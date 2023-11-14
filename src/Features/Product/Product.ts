@@ -1,7 +1,7 @@
 export default interface Product {
-    id: string,
-    name: string,
-    description: string,
-    price: number,
-    isFavorite: bool,
+  id: string;
+  name: string;
+  description: string;
+  price: number;
+  isFavorite: boolean;
 }
